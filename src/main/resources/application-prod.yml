@@ -1,0 +1,7 @@
+solr:
+  url: "http://localhost:8983/solr/prod_products"
+  queueSize: 100
+  threadCount: 2
+
+eventbus:
+  address: "product-updates-prod"
